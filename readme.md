@@ -15,6 +15,9 @@ cp $APPLICA/.env.example $APPLICA/.env
 cd $APPLICA
 npm install
 npm run start
+
+# Go to
+http://localhost:5000
 ```
 
 ## Endpoints
