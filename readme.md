@@ -13,6 +13,7 @@ cp $APPLICA/.env.example $APPLICA/.env
 
 # Install dependencies and run server
 cd $APPLICA
+nvm use
 npm install
 npm run start
 
