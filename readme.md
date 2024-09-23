@@ -1,6 +1,6 @@
 # Steps to clone the project
 
-
+1. Clone the repository: `git clone git@github.com:Gabriel-Villa/backend-engineer-test.git`
 
 
 2. Create env file `cp .env.example .env`
