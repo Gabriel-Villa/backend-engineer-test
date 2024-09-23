@@ -1,13 +1,21 @@
-# Steps to clone the project
+# Backend Engineer Test
 
-1. Clone the repository: `git clone git@github.com:Gabriel-Villa/backend-engineer-test.git`
+## Getting started
 
+```bash
+APPLICA=/var/www/applica
 
-2. Create env file `cp .env.example .env`
+# Clone the repository: 
+git clone git@github.com:Gabriel-Villa/backend-engineer-test.git $APPLICA
 
-3. Install the dependencies: `npm install`
+# Create env file
+cp $APPLICA/.env.example $APPLICA/.env
 
-4. Run the server: `npm run start`
+# Install dependencies and run server
+cd $APPLICA
+npm install
+npm run start
+```
 
 ## Endpoints
 
